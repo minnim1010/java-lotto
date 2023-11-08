@@ -9,7 +9,7 @@ public enum Message {
     WINNING_STATISTICS_HEADER("당첨 통계"),
     WINNING_STATISTICS_DIVIDER("---"),
     WINNING_LOTTOS_COUNT_PER_PRIZE("%s - %d개"),
-    PROFIT_RATE("총 수익률은 %.1f%%입니다.");
+    PROFIT_RATE("총 수익률은 %,.1f%%입니다.");
 
     private final String value;
 
